@@ -131,7 +131,10 @@ public class FragmentFlashSale extends BaseFragment {
         super.onDestroyView();
         unbinder.unbind();
     }
-
+void  abc (){
+    int i=0;
+    i=i+2;
+}
     // //////////////COUNT DOWN START/////////////////////////
     public void countDownStart() {
         handler = new Handler();
